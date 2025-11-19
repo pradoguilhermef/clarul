@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ViewState, Campaign, DashboardMetrics } from './types';
-import { getDashboardMetrics, listarCampanhas } from './services/campaignService';
+import { getDashboardMetrics, listarCampanhas } from './services/campaignservice';
 import Dashboard from './components/Dashboard';
 import CampaignForm from './components/CampaignForm';
 import CampaignList from './components/CampaignList';
