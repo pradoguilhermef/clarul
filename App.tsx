@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { ViewState, Campaign, DashboardMetrics } from './types';
-import { getDashboardMetrics, listarCampanhas } from './services/campaignService';
-import Dashboard from './components/Dashboard';
-import CampaignForm from './components/CampaignForm';
-import CampaignList from './components/CampaignList';
+import { getDashboardMetrics, listarCampanhas } from 'campaignService';
+import Dashboard from 'Dashboard';
+import CampaignForm from 'CampaignForm';
+import CampaignList from 'CampaignList';
 import { LayoutDashboard, PlusCircle, List, CheckCircle, Menu, Sun, Bird } from 'lucide-react';
 
 // Custom Logo Component matching the company brand
