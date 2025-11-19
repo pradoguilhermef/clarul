@@ -8,7 +8,7 @@ import {
   maskDateInput, 
   convertBrDateToISO, 
   convertIsoToBrDate 
-} from '../services/campaignService';
+} from '../services/campaignservice';
 import { Save, X, AlertCircle, Calendar } from 'lucide-react';
 
 interface CampaignFormProps {
