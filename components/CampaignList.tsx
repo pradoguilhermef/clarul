@@ -9,7 +9,7 @@ import {
   duplicarCampanha,
   maskDateInput,
   convertBrDateToISO
-} from '../services/campaignService';
+} from '../services/campaignservice';
 import { Search, Edit2, Trash2, Copy, Filter, ArrowUp, ArrowDown, Calendar } from 'lucide-react';
 
 interface CampaignListProps {
