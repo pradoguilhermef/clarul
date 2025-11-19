@@ -2,7 +2,7 @@ import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LineChart, Line } from 'recharts';
 import { TrendingUp, DollarSign, Users, Activity } from 'lucide-react';
 import { Campaign, DashboardMetrics } from '../types';
-import { formatCurrency } from '../services/campaignService';
+import { formatCurrency } from '../services/campaignservice';
 
 interface DashboardProps {
   metrics: DashboardMetrics;
